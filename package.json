@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "jquery": "^3.6.0",
+    "node-sass": "^7.0.1"
+  },
+  "scripts": {
+    "sass": "node-sass --watch public/assets/scss/style.scss public/assets/css/style.css --output-style compressed"
+  }
+}
