@@ -1,3 +1,16 @@
 {
-    "title": "Diëtiste Boeckmans"
+    "email": "E-mail",
+    "title": "Diëtiste Boeckmans",
+    "phone": "Telefoon",
+    "home": "Home",
+    "about": "Over mij",
+    "services": "Diensten",
+    "make_appointment": "Maak een afspraak",
+    "all_rights_reserved": "Alle rechten voorbehouden",
+    "copyright": "Copyright",
+    "location": "Locatie",
+    "contact": "Contact",
+    "why_choose": "Waarom Diëtiste Boeckmans?",
+    "designed_by": "Designed by",
+    "your_name": "Uw naam"
 }

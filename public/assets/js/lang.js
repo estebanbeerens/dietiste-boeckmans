@@ -40,8 +40,8 @@ function translateHTML(language = undefined) {
             // Check if we have missing translations
             $.each($('[trans]:empty'), function (key, value) {
                 // Mark missing translation in HTML
-                $(value).html(`TRANS_${$(value).attr('trans')}`);
-                $(value).addClass('fw-bold text-danger');
+                $(value).html(`@trans_${$(value).attr('trans')}`);
+                $(value).addClass('fw-bold text-warning');
 
                 // Throw error in console
                 console.error(`Missing translation "${$(value).attr('trans')}" in ${language}.json.`);

@@ -41,7 +41,7 @@
     color: $white;
     background: $primary;
     &:hover {
-      background: lighten($primary, 10);
+      background: darken($primary, 8);
     }
   }
 

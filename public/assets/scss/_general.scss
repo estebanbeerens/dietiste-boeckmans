@@ -12,7 +12,7 @@ a {
 }
 
 a:hover {
-  color: lighten($primary, 10);
+  color: darken($primary, 10);
   text-decoration: none;
 }
 
@@ -40,7 +40,7 @@ h1, h2, h3, h4, h5, h6 {
   top: calc(50% - 30px);
   left: calc(50% - 30px);
   border: 6px solid $primary;
-  border-top-color: lighten($primary, 45);
+  border-top-color: lighten($primary, 25);
   border-radius: 50%;
   width: 60px;
   height: 60px;
@@ -75,7 +75,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 
   &:hover  {
-    background: lighten($primary, 8);
+    background: darken($primary, 8);
     color: #fff;
   }
 
