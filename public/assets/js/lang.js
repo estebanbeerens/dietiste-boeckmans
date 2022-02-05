@@ -3,7 +3,9 @@
 */
 const mainLanguage = 'nl';
 const supportedLanguages = ['nl'];
+const translationAttributes = ['placeholder']
 
+// Run it!
 translateHTML();
 
 /*
@@ -33,12 +35,28 @@ function translateHTML(language = undefined) {
             // Populate the HTML fields with the right translation
             $.each(translationData, function (key, value) {
                 // Check if translations are used
-                if ($(`[trans='${key}'`).length) $(`[trans='${key}'`).html(value);
-                else console.warn(`Translation "${key}" was declared in ${language}.json, but is never used.`)
+                if ($(`[trans='${key}'`).length) {
+                    $(`[trans='${key}'`).html(value);
+                    return;
+                }
+
+                let attributeFound = false;
+
+                // Special case
+                translationAttributes.forEach(attribute => {
+                    if ($(`[${attribute}*='{{'][${attribute}*='${key}'][${attribute}*='}}']`).length) {
+                        $(`[${attribute}*='{{'][${attribute}*='${key}'][${attribute}*='}}']`).attr(attribute, value);
+                        attributeFound = true;
+                    }
+                });
+
+                if (attributeFound) return;
+
+                console.warn(`Translation "${key}" was declared in ${language}.json, but is never used.`)
             });
 
             // Check if we have missing translations
-            $.each($('[trans]:empty'), function (key, value) {
+            $.each($("[trans]:empty"), function (key, value) {
                 // Mark missing translation in HTML
                 $(value).html(`@trans_${$(value).attr('trans')}`);
                 $(value).addClass('fw-bold text-warning');
