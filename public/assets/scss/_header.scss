@@ -90,15 +90,16 @@
 * Appointment Button *
 */
 .appointment-btn {
-  margin-left: 25px;
+  margin: 0 25px !important;
   background: $primary;
   color: $white;
   border-radius: 50px;
-  padding: 8px 25px;
+  padding: 8px 25px !important;
   white-space: nowrap;
   transition: 0.3s;
   font-size: 14px;
   display: inline-block;
+  color: $white !important;
   &:hover {
     background: darken($primary, 8);
     color: $white;
