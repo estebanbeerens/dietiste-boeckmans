@@ -1,0 +1,19 @@
+{
+    "name": "Di\u00ebtiste Boeckmans",
+    "short_name": "Di\u00ebtiste Boeckmans",
+    "icons": [
+        {
+            "src": "/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/android-chrome-384x384.png",
+            "sizes": "384x384",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#e07679",
+    "background_color": "#e07679",
+    "display": "standalone"
+}

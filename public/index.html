@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="nl">
 
 <head>
   <meta charset="utf-8">
@@ -8,10 +8,6 @@
   <title trans="title"></title>
   <meta content="" name="description">
   <meta content="" name="keywords">
-
-  <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
@@ -34,6 +30,15 @@
 
   <!-- Font awesome -->
   <script src="https://kit.fontawesome.com/7741fc3d05.js" crossorigin="anonymous"></script>
+
+  <!-- Favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/img/icons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/img/icons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/img/icons/favicon-16x16.png">
+  <link rel="manifest" href="assets/img/icons/site.webmanifest">
+  <link rel="mask-icon" href="assets/img/icons/safari-pinned-tab.svg" color="#e07679">
+  <meta name="msapplication-TileColor" content="#e07679">
+  <meta name="theme-color" content="#e07679">
 </head>
 
 <body>>
@@ -67,7 +72,7 @@
           <li><a class="nav-link scrollto active" href="#hero" trans="home"></a></li>
           <li><a class="nav-link scrollto" href="#about" trans="about"></a></li>
           <li><a class="nav-link scrollto" href="#focus" trans="focus"></a></li>
-          <li><a class="nav-link scrollto" href="#services" trans="services"></a></li>
+          <li><a class="nav-link scrollto" href="#services" trans="consultations"></a></li>
           <li><a class="nav-link scrollto" href="#contact" trans="contact"></a></li>
           <li><a target="_blank" href="https://book.timify.com/?accountId=61fd7ffa496d63111c6eece7&hideCloseButton=true" class="appointment-btn" trans="make_appointment"></a></li>
         </ul>
@@ -80,8 +85,8 @@
   <!-- ======= Hero Section ======= -->
   <section id="hero" class="d-flex align-items-center">
     <div class="container">
-      <h1 trans="title"></h1>
-      <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</h2>
+      <h1 trans="title_expanded"></h1>
+      <h2>Diëtiste. Voeding -en bewegingsdeskundige. Wandelexpert.</h2>
       <a href="#about" class="btn-get-started scrollto" trans="who_am_i"></a>
     </div>
   </section><!-- End Hero -->
@@ -97,8 +102,7 @@
             <div class="content">
               <h3 trans="why_choose"></h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit
-                Asperiores dolores sed et. Tenetur quia eos. Autem tempore quibusdam vel necessitatibus optio ad corporis.
+                Als erkend diëtist werk ik op een wetenschappelijk onderbouwde manier, met als doel u naar een optimale gezondheid te begeleiden. Samen gaan we via wederzijds overleg op zoek naar een evenwicht tussen voeding en beweging. Bij mij staan levensstijl, omgeving, en gezondheid van mijn cliënten centraal.
               </p>
               <div class="text-center">
                 <a href="#about" class="more-btn">Lees meer <i class="bx bx-chevron-right"></i></a>
@@ -110,23 +114,29 @@
               <div class="row">
                 <div class="col-xl-4 d-flex align-items-stretch">
                   <div class="icon-box mt-4 mt-xl-0">
-                    <i class="bx bx-receipt"></i>
-                    <h4>Corporis voluptates sit</h4>
-                    <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
+                    <i class="fa-solid fa-map-pin"></i>
+                    <h4>Ons doel</h4>
+                    <p>
+                      Samen streven we naar het bereiken en behouden van uw optimale gezondheid.
+                    </p>
                   </div>
                 </div>
                 <div class="col-xl-4 d-flex align-items-stretch">
                   <div class="icon-box mt-4 mt-xl-0">
-                    <i class="bx bx-cube-alt"></i>
-                    <h4>Ullamco laboris ladore pan</h4>
-                    <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt</p>
+                    <i class="fa-solid fa-scale-balanced"></i>
+                    <h4>Evenwicht</h4>
+                    <p>
+                      We zoeken naar een evenwicht tussen gezonde voeding en beweging.
+                    </p>
                   </div>
                 </div>
                 <div class="col-xl-4 d-flex align-items-stretch">
                   <div class="icon-box mt-4 mt-xl-0">
-                    <i class="bx bx-images"></i>
-                    <h4>Labore consequatur</h4>
-                    <p>Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis facere</p>
+                    <i class="fa-solid fa-ruler"></i>
+                    <h4>Advies op maat</h4>
+                    <p>
+                      Via wederzijds overleg wordt onze werkwijze bepaald. Alleen zo is een oplossing op maat mogelijk.
+                    </p>
                   </div>
                 </div>
               </div>
@@ -139,31 +149,39 @@
 
     <!-- ======= About Section ======= -->
     <section id="about" class="about">
-      <div class="container-fluid">
+      <div class="container">
 
         <div class="row">
           <div class="col-xl-5 col-lg-6 video-box d-flex justify-content-center align-items-stretch position-relative"></div>
 
           <div class="col-xl-7 col-lg-6 icon-boxes d-flex flex-column align-items-stretch justify-content-center py-5 px-lg-5">
-            <h3>Enim quis est voluptatibus aliquid consequatur fugiat</h3>
-            <p>Esse voluptas cumque vel exercitationem. Reiciendis est hic accusamus. Non ipsam et sed minima temporibus laudantium. Soluta voluptate sed facere corporis dolores excepturi. Libero laboriosam sint et id nulla tenetur. Suscipit aut voluptate.</p>
+            <h3>Een korte introductie over mezelf</h3>
+            <p>
+              Ik ben Evelien Boeckmans, een spontane en enthousiaste dame die een passie heeft voor een gezonde levensstijl. Ik wil deze passie graag delen met andere mensen en werd daarom diëtiste.
+            </p>
 
             <div class="icon-box">
-              <div class="icon"><i class="bx bx-fingerprint"></i></div>
-              <h4 class="title"><a href="">Lorem Ipsum</a></h4>
-              <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+              <div class="icon"><i class="fa-solid fa-utensils"></i></div>
+              <h4 class="title">Bachelor in voeding -en dieetkunde</h4>
+              <p class="description">
+                Ik studeerde af als diëiste. Hier verdiepte ik me in communicatietechnieken en alles dat er te weten valt over voeding
+              </p>
             </div>
 
             <div class="icon-box">
-              <div class="icon"><i class="bx bx-gift"></i></div>
-              <h4 class="title"><a href="">Nemo Enim</a></h4>
-              <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
+              <div class="icon"><i class="fa-solid fa-person-running"></i></div>
+              <h4 class="title">Bachelor in sport en beweging</h4>
+              <p class="description">
+                Na mijn bachelor in voeding -en dieetkunde heb ik me verdiept in sport en beweging, omdat dit een meerwaarde biedt aan elk dieetplan
+              </p>
             </div>
 
             <div class="icon-box">
-              <div class="icon"><i class="bx bx-atom"></i></div>
-              <h4 class="title"><a href="">Dine Pad</a></h4>
-              <p class="description">Explicabo est voluptatum asperiores consequatur magnam. Et veritatis odit. Sunt aut deserunt minus aut eligendi omnis</p>
+              <div class="icon"><i class="fa-solid fa-certificate"></i></div>
+              <h4 class="title">Erkend diëtiste</h4>
+              <p class="description">
+                Na het aansluiten bij het RIZIV en het VBVD (vlaamseberoepsvereniging vandietisten) startte ik alserkend diëtiste de praktijk
+              </p>
             </div>
 
           </div>
@@ -172,58 +190,15 @@
       </div>
     </section><!-- End About Section -->
 
-    <!-- ======= Counts Section ======= -->
-    <!-- <section id="counts" class="counts">
-      <div class="container">
-
-        <div class="row">
-
-          <div class="col-lg-3 col-md-6">
-            <div class="count-box">
-              <i class="fas fa-user-md"></i>
-              <span data-purecounter-start="0" data-purecounter-end="85" data-purecounter-duration="1" class="purecounter"></span>
-              <p>Doctors</p>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 mt-5 mt-md-0">
-            <div class="count-box">
-              <i class="far fa-hospital"></i>
-              <span data-purecounter-start="0" data-purecounter-end="18" data-purecounter-duration="1" class="purecounter"></span>
-              <p>Departments</p>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
-            <div class="count-box">
-              <i class="fas fa-flask"></i>
-              <span data-purecounter-start="0" data-purecounter-end="12" data-purecounter-duration="1" class="purecounter"></span>
-              <p>Research Labs</p>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
-            <div class="count-box">
-              <i class="fas fa-award"></i>
-              <span data-purecounter-start="0" data-purecounter-end="150" data-purecounter-duration="1" class="purecounter"></span>
-              <p>Awards</p>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-    </section> -->
-    <!-- End Counts Section -->
-
     <!-- ======= Services Section ======= -->
     <section id="focus" class="services">
       <div class="container">
 
         <div class="section-title">
           <h2 trans="focus"></h2>
-          <p>In de praktijk begeleid ik je individueel op een
-gezonde duurzame manier bij.</p>
+          <p>
+            Op een wetenschappelijke onderbouwde manier begeleid ik je naar een optimale gezondheid. Dit doe ik met behulp van op maat gemaakte diëten en trajecten waarbij een evenwicht tussen voeding en beweging centraal staat.
+          </p>
         </div>
 
         <div class="row">
@@ -231,7 +206,7 @@ gezonde duurzame manier bij.</p>
             <div class="icon-box">
               <div class="icon"><i class="fa-solid fa-carrot"></i></div>
               <h4>Gezonde voeding</h4>
-              <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+              <p>Een gezonder leven leiden met gezonde, maar alsnog lekkere, voeding</p>
             </div>
           </div>
 
@@ -239,15 +214,15 @@ gezonde duurzame manier bij.</p>
             <div class="icon-box">
               <div class="icon"><i class="fa-solid fa-weight-scale"></i></div>
               <h4>Gewichtscontrole</h4>
-              <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
+              <p>Je gewicht op pijl krijgen en gezondheidsrisico’s vermijden</p>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
             <div class="icon-box">
               <div class="icon"><i class="fa-solid fa-apple-whole"></i></div>
-              <h4>Cholesterol-arme voeding</h4>
-              <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
+              <h4>Cholesterolarme voeding</h4>
+              <p>Het verbeteren van je cholesterolwaardes door slechte vetten te beperken</p>
             </div>
           </div>
 
@@ -255,15 +230,15 @@ gezonde duurzame manier bij.</p>
             <div class="icon-box">
               <div class="icon"><i class="fa-solid fa-person"></i></div>
               <h4>Ondervoeding</h4>
-              <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
+              <p>Je lichaam terug versterken aan de hand van de juiste voeding en beweging</p>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
             <div class="icon-box">
               <div class="icon"><i class="fa-solid fa-ban"></i></div>
-              <h4>Intoleranties</h4>
-              <p>Quis consequatur saepe eligendi voluptatem consequatur dolor consequuntur</p>
+              <h4>Lactose -en glutenintoleranties</h4>
+              <p>Onaangename bijwerkingen voorkomen door middel van aangepaste voeding</p>
             </div>
           </div>
 
@@ -271,7 +246,7 @@ gezonde duurzame manier bij.</p>
             <div class="icon-box">
               <div class="icon"><i class="fa-solid fa-person-walking"></i></div>
               <h4>Laagdrempelig sporten</h4>
-              <p>Modi nostrum vel laborum. Porro fugit error sit minus sapiente sit aspernatur</p>
+              <p>Wandelen, fietsen, zwemmen. Ter ondersteuning van een gezonde levensstijl</p>
             </div>
           </div>
 
@@ -285,21 +260,30 @@ gezonde duurzame manier bij.</p>
       <div class="container">
 
         <div class="section-title">
-          <h2>Diensten</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+          <h2 trans="consultations"></h2>
+          <p>Hier vindt u een overzicht van de verschillende consultaties en trajecten die ik bied. 
+Als u kiest voor vrije consultaties, word er steeds gestart met het intakegesprek, daarna een vervolggesprek en alle verder consultaties zijn opvolgconsultaties. 
+Een traject bestaat uit meerdere consultaties, startende met een intake -en vervolggesprek.
+          </p>
         </div>
 
         <div class="row gy-4">
           <div class="col-lg-3">
             <ul class="nav nav-tabs flex-column">
               <li class="nav-item">
-                <a class="nav-link active show" data-bs-toggle="tab" href="#tab-1">Consultaties</a>
+                <a class="nav-link active show" data-bs-toggle="tab" href="#tab-1">Intakegesprek</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" data-bs-toggle="tab" href="#tab-2">Opvolgconsultaties</a>
+                <a class="nav-link" data-bs-toggle="tab" href="#tab-2">Vervolggesprek</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" data-bs-toggle="tab" href="#tab-3">Half jaar trajecten</a>
+                <a class="nav-link" data-bs-toggle="tab" href="#tab-3">Opvolgconsultaties</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" href="#tab-4">Motivatie traject</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" href="#tab-5">Opvolg traject</a>
               </li>
             </ul>
           </div>
@@ -308,36 +292,91 @@ gezonde duurzame manier bij.</p>
               <div class="tab-pane active show" id="tab-1">
                 <div class="row gy-4">
                   <div class="col-lg-8 details order-2 order-lg-1">
-                    <h3>Consultaties</h3>
-                    <p class="fst-italic">Qui laudantium consequatur laborum sit qui ad sapiente dila parde sonata raqer a videna mareta paulona marka</p>
-                    <p>Et nobis maiores eius. Voluptatibus ut enim blanditiis atque harum sint. Laborum eos ipsum ipsa odit magni. Incidunt hic ut molestiae aut qui. Est repellat minima eveniet eius et quis magni nihil. Consequatur dolorem quaerat quos qui similique accusamus nostrum rem vero</p>
+                    <h3>Intakegesprek</h3>
+                    <p>
+                      Het doel van dit intakegesprek is om jou beter te leren kennen. Samen verdiepen
+                      en onderzoeken we jouw huidige levensstijl en voedingspatroon.
+                    </p>
+                    <p>
+                      Op het einde van deze consultatie stellen we doelen en werkpunten op jouw maat.
+                    </p>
                   </div>
                   <div class="col-lg-4 text-center order-1 order-lg-2">
-                    <img src="assets/img/departments-1.jpg" alt="" class="img-fluid">
+                    <img src="assets/img/consult-1.jpg" alt="" class="img-fluid">
                   </div>
                 </div>
               </div>
               <div class="tab-pane" id="tab-2">
                 <div class="row gy-4">
                   <div class="col-lg-8 details order-2 order-lg-1">
-                    <h3>Opvolgconsultaties</h3>
-                    <p class="fst-italic">Qui laudantium consequatur laborum sit qui ad sapiente dila parde sonata raqer a videna mareta paulona marka</p>
-                    <p>Ea ipsum voluptatem consequatur quis est. Illum error ullam omnis quia et reiciendis sunt sunt est. Non aliquid repellendus itaque accusamus eius et velit ipsa voluptates. Optio nesciunt eaque beatae accusamus lerode pakto madirna desera vafle de nideran pal</p>
+                    <h3>Vervolggesprek</h3>
+                    <p>
+                      Enige tijd na onze kennismaking overlopen we de voorbije weken. Wat liep er goed
+                      en wat ging er minder?
+                    </p>
+                    <p>
+                      We zoeken samen naar mogelijke oplossingen en bouwen nieuwe werkpunten in.
+                    </p>
                   </div>
                   <div class="col-lg-4 text-center order-1 order-lg-2">
-                    <img src="assets/img/departments-2.jpg" alt="" class="img-fluid">
+                    <img src="assets/img/consult-2.jpg" alt="" class="img-fluid">
                   </div>
                 </div>
               </div>
               <div class="tab-pane" id="tab-3">
                 <div class="row gy-4">
                   <div class="col-lg-8 details order-2 order-lg-1">
-                    <h3>Half jaar trajecten</h3>
-                    <p class="fst-italic">Eos voluptatibus quo. Odio similique illum id quidem non enim fuga. Qui natus non sunt dicta dolor et. In asperiores velit quaerat perferendis aut</p>
-                    <p>Iure officiis odit rerum. Harum sequi eum illum corrupti culpa veritatis quisquam. Neque necessitatibus illo rerum eum ut. Commodi ipsam minima molestiae sed laboriosam a iste odio. Earum odit nesciunt fugiat sit ullam. Soluta et harum voluptatem optio quae</p>
+                    <h3>Opvolgconsultaties</h3>
+                    <p>
+                      Tijdens deze consultaties bespreken we jouw werkpunten en bouwen we
+                      nieuwe werkpunten in.
+                    </p>
+                    <p>
+                      Deze momenten zijn ook geschikt om bijkomende vragen te stellen. 
+                      Bijvoorbeeld over bereidingswijzen en/of het vergelijken van etiketten.
+                    </p>
                   </div>
                   <div class="col-lg-4 text-center order-1 order-lg-2">
-                    <img src="assets/img/departments-3.jpg" alt="" class="img-fluid">
+                    <img src="assets/img/consult-3.jpg" alt="" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane" id="tab-4">
+                <div class="row gy-4">
+                  <div class="col-lg-8 details order-2 order-lg-1">
+                    <h3>Motivatie traject</h3>
+                    <p>
+                      Verhoog je motivatie en engagement door een ondersteunende begeleiding. Je hebt nood aan regelmatige feedback en het bespreken van moeilijkheden.
+                    </p>
+                    <p class="mb-1">
+                      Dit traject bestaat uit:
+                    </p>
+                    <ul>
+                      <li>1 intake</li>
+                      <li>1 tweede consultatie</li>
+                      <li>6 opvolgconsultaties</li>
+                    </ul>
+                  </div>
+                  <div class="col-lg-4 text-center order-1 order-lg-2">
+                    <img src="assets/img/consult-4.jpg" alt="" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane" id="tab-5">
+                <div class="row gy-4">
+                  <div class="col-lg-8 details order-2 order-lg-1">
+                    <h3>Opvolg traject</h3>
+                    <p>
+                      Het behouden van je veranderingen in voedingspatroon en levensstijl is niet zo
+                      makkelijk als het lijkt. Je gaat nu zelfstandig aan de slag maar je hebt nog nood
+                      aan controle of feedback momenten.
+                    </p>
+                    <p>
+                      Dit traject bestaat uit 4 opvolgconsultaties.
+                    </p>
+                  </div>
+                  <div class="col-lg-4 text-center order-1 order-lg-2">
+                    <img src="assets/img/consult-5.jpg" alt="" class="img-fluid">
                   </div>
                 </div>
               </div>
@@ -354,7 +393,15 @@ gezonde duurzame manier bij.</p>
 
         <div class="section-title">
           <h2 trans="make_appointment"></h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+          <p>
+            Wil je graag  op consultatie komen? Maak dan een afspraak via de knop hieronder. Als je een traject wilt starten, gelieven dan eerst even te bellen of te mailen.
+          </p>
+          <p class="mt-3">
+            Deze knop zal je doorsturen naar Timify, waar je je consultatie zelf kan inplannen. Eerst kies je het type consultatie. Vervolgens duid je de datum en het uur aan wanneer je op consult wilt komen. Tot slot kan je inloggen in de app, of gewoon doorgaan als gast (je data wordt dan niet opgeslagen).
+          </p>
+          <p class="mt-3">
+            Je kan ook steeds bellen of mailen om een afspraak te maken.
+          </p>
         </div>
 
           <div class="text-center"><a target="_blank" href="https://book.timify.com/?accountId=61fd7ffa496d63111c6eece7&hideCloseButton=true" class="appointment-btn" trans="make_appointment"></a></div>
@@ -362,7 +409,7 @@ gezonde duurzame manier bij.</p>
     </section><!-- End Appointment Section -->
 
     <!-- ======= Testimonials Section ======= -->
-    <section id="testimonials" class="testimonials">
+    <!-- <section id="testimonials" class="testimonials">
       <div class="container">
 
         <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
@@ -381,7 +428,7 @@ gezonde duurzame manier bij.</p>
                   </p>
                 </div>
               </div>
-            </div><!-- End testimonial item -->
+            </div>
 
             <div class="swiper-slide">
               <div class="testimonial-wrap">
@@ -396,7 +443,7 @@ gezonde duurzame manier bij.</p>
                   </p>
                 </div>
               </div>
-            </div><!-- End testimonial item -->
+            </div>
 
             <div class="swiper-slide">
               <div class="testimonial-wrap">
@@ -411,7 +458,7 @@ gezonde duurzame manier bij.</p>
                   </p>
                 </div>
               </div>
-            </div><!-- End testimonial item -->
+            </div>
 
             <div class="swiper-slide">
               <div class="testimonial-wrap">
@@ -426,7 +473,7 @@ gezonde duurzame manier bij.</p>
                   </p>
                 </div>
               </div>
-            </div><!-- End testimonial item -->
+            </div>
 
             <div class="swiper-slide">
               <div class="testimonial-wrap">
@@ -441,22 +488,25 @@ gezonde duurzame manier bij.</p>
                   </p>
                 </div>
               </div>
-            </div><!-- End testimonial item -->
+            </div>
 
           </div>
           <div class="swiper-pagination"></div>
         </div>
 
       </div>
-    </section><!-- End Testimonials Section -->
+    </section> -->
+    <!-- End Testimonials Section -->
 
     <!-- ======= Contact Section ======= -->
     <section id="contact" class="contact">
       <div class="container">
 
         <div class="section-title">
-          <h2>Contact</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+          <h2 trans="contact"></h2>
+          <p>
+            Heb je nog meer vragen? Stuur dan gerust een mailtje of bel me even op. 
+          </p>
         </div>
       </div>
 
