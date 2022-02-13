@@ -241,14 +241,7 @@ section {
       font-weight: 700;
       margin-bottom: 10px;
       font-size: 18px;
-      a {
-        color: $black;
-        transition: 0.3s;
-        &:hover {
-          color: $primary;
-        }
-      }
-  
+      color: $black;
     }
   
     .description {
@@ -262,6 +255,7 @@ section {
     background: url("../img/about.jpg") center center no-repeat;
     background-size: cover;
     min-height: 500px;
+    border-radius: 10px;
   }
 
   .play-btn {
@@ -608,7 +602,7 @@ section {
       color: $secondary;
     }
 
-    p {
+    p, ul {
       color: lighten($default, 20);
 
       &:last-child {

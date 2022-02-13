@@ -1,10 +1,10 @@
 {
     "email": "E-mail",
     "title": "Diëtiste Boeckmans",
+    "title_expanded":"Diëtiste Evelien Boeckmans",
     "phone": "Telefoon",
     "home": "Home",
     "about": "Over mij",
-    "services": "Diensten",
     "make_appointment": "Maak een afspraak",
     "all_rights_reserved": "Alle rechten voorbehouden",
     "copyright": "Copyright",
@@ -12,10 +12,7 @@
     "contact": "Contact",
     "why_choose": "Waarom kiezen voor Diëtiste Boeckmans?",
     "designed_by": "Designed by",
-    "your_name": "Uw naam",
-    "your_email": "Uw e-mail",
-    "subject": "Onderwerp",
-    "message": "Bericht",
     "who_am_i": "Wie ben ik?",
-    "focus": "Onze focus"
+    "focus": "Focus",
+    "consultations": "Consultaties"
 }
