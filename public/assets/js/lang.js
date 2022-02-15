@@ -1,3 +1,14 @@
+/*******************************************
+ * 
+ * IMPORTANT!
+ * THIS FILE REQUIRES JQuery, IMPORT IT INTO YOUR HTML FILE
+ * <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+ * 
+ * ALSO IMPORT SCRIPT
+ * <script src="assets/js/lang.js"></script>
+ * 
+ *******************************************/
+
 /*
  * Custom params
 */
